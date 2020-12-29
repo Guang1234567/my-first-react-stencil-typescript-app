@@ -1,0 +1,16 @@
+{
+  "compilerOptions": {
+    "baseUrl": ".",
+    "paths": {
+      "my-ui-components": [
+        "./libs/my-ui-components/dist/my-ui-components"
+      ],
+      "my-ui-components/loader": [
+        "./libs/my-ui-components/loader/index.cjs.js"
+      ],
+      "my-ui-components-react": [
+        "./libs/my-ui-components/generated/my-ui-components-react/src/components.ts"
+      ]
+    }
+  }
+}

@@ -2,6 +2,10 @@ import React from 'react';
 import logo from './logo.svg';
 import './App.css';
 
+//import { MyComponent } from 'bcd-ui-component/generated/bcd-ui-component-react/src/components'
+//import { MyComponent } from './bcd-ui-component-react/src/components'
+import { MyComponent } from 'bcd-ui-component-react'
+
 function App() {
   return (
     <div className="App">
@@ -18,6 +22,15 @@ function App() {
         >
           Learn React
         </a>
+
+        <MyComponent first="a Web Component / Custom Element"
+          middle={[
+            'with complex prop passing and easy event binding',
+            'for React yeah!'
+          ]}
+          last="thanks to Stencil"
+          onNameClicked={e => alert(e.detail)} />
+
       </header>
     </div>
   );

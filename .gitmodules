@@ -1,0 +1,6 @@
+[submodule "libs/bcd-ui-component"]
+	path = libs/bcd-ui-component
+	url = https://github.com/Guang1234567/bcd-ui-component.git
+[submodule "libs/bcd-ui-component-react"]
+	path = libs/bcd-ui-component-react
+	url = https://github.com/Guang1234567/bcd-ui-component-react.git
