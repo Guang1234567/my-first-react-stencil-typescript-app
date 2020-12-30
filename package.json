@@ -44,8 +44,8 @@
     ]
   },
   "devDependencies": {
+    "construct-style-sheets-polyfill": "^2.4.6",
     "react-app-rewire-alias": "^0.1.9",
-    "react-app-rewired": "^2.1.8",
-    "rollup-plugin-typescript-paths": "^1.2.2"
+    "react-app-rewired": "^2.1.8"
   }
 }
